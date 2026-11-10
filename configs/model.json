@@ -1,0 +1,25 @@
+{
+  "model": {
+    "width": 64,
+    "heads": 4,
+    "feedforward_width": 128,
+    "head_width": 32,
+    "classes": 4,
+    "dropout": 0.1,
+    "layer_norm_epsilon": 0.00001,
+    "role_embedding_std": 0.02
+  },
+  "training": {
+    "learning_rate": 0.001,
+    "betas": [0.9, 0.999],
+    "optimizer_epsilon": 0.00000001,
+    "weight_decay": 0.0001,
+    "capacity_weight": 1.0,
+    "rmi_weight": 1.0,
+    "batch_size": 32,
+    "max_epochs": 200,
+    "patience": 20,
+    "min_improvement": 0.0001,
+    "seeds": [42, 43, 44, 45, 46]
+  }
+}

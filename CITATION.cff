@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated manuscript when using these tools."
+title: "Sodium ion data availability"
+type: software
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/Linfeng12321/sodium-ion-data-availability"
+date-released: "2026-11-10"
+authors:
+  - family-names: "Liu"
+    given-names: "Linfeng"
+  - family-names: "Ko"
+    given-names: "Nok"
+  - family-names: "Juwono"
+    given-names: "Filbert H."
+  - family-names: "Ma"
+    given-names: "Zhiqin"
+  - family-names: "Wang"
+    given-names: "Qin"
+preferred-citation:
+  type: unpublished
+  title: "Characterizing literature-derived evidence on capacity and retention in sodium-ion battery material systems with explicit chemistry context"
+  authors:
+    - family-names: "Liu"
+      given-names: "Linfeng"
+    - family-names: "Ko"
+      given-names: "Nok"
+    - family-names: "Juwono"
+      given-names: "Filbert H."
+    - family-names: "Ma"
+      given-names: "Zhiqin"
+    - family-names: "Wang"
+      given-names: "Qin"

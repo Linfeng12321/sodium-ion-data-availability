@@ -1,0 +1,23 @@
+dataset,source_header,meaning,treatment,count_rule
+main,Anode.Group,anode context,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+main,Anode.Crystal Structure,anode context,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+main,Anode.Structure,anode context,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+main,Cathode.Group,cathode context,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+main,Cathode.Crystal,cathode context,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+main,Cathode.Structure,cathode context,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+main,Salt,electrolyte context,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+main,Solvent ,electrolyte context,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+main,Additive w%,electrolyte context,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+main,peak discharge capacity. (mAh/g),capacity,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+main,peak discharge capacity retention (%80) cycle number,retention,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+main,peak discharge capacity retention (%80) cycle number,milestone anchor,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+auxiliary,Name,cathode context,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+auxiliary,Elements,cathode context,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+auxiliary,Voltage lower limit,voltage,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+auxiliary,Voltage upper limit,voltage,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+auxiliary,Current: mAg-1,current or rate,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+auxiliary,Current: C,current or rate,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+auxiliary,Cycle,cycle index,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+auxiliary,Capacity,capacity,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+auxiliary,Retention,retention,Availability of an entry; no numerical conversion,Union within item; each record counted at most once
+auxiliary,Cycle,milestone anchor,Availability of an entry; no numerical conversion,Union within item; each record counted at most once

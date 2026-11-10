@@ -1,0 +1,14 @@
+{
+  "record_id": null,
+  "capacity_target": null,
+  "rmi_target": null,
+  "roles": {
+    "anode": {"categorical": [], "numerical": []},
+    "cathode": {"categorical": [], "numerical": []},
+    "electrolyte": {"categorical": [], "numerical": []},
+    "testing": {"categorical": [], "numerical": []}
+  },
+  "missing_markers": null,
+  "numerical_statistics": null,
+  "capacity_standard_deviation_ddof": null
+}

@@ -1,0 +1,8 @@
+{
+  "setting": null,
+  "expected_counts": {"train": 860, "validation": 184, "test": 185},
+  "family_column": null,
+  "held_out_families": [],
+  "similarity_definition": null,
+  "similarity_threshold": null
+}

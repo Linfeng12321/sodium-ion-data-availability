@@ -1,0 +1,41 @@
+{
+  "description": "Field availability definitions from Appendix A",
+  "missing_markers": ["", "-", "na", "n/a", "nan", "none", "unknown", "unavailable", "not available", "not mention", "not mentioned"],
+  "groups": {
+    "system_context": ["anode_context", "cathode_context", "electrolyte_context"],
+    "protocol_resolution": ["voltage", "current_or_rate", "cycle_index"],
+    "response_evidence": ["capacity", "retention"]
+  },
+  "datasets": {
+    "main": {
+      "label": "Main dataset",
+      "expected_records": 1229,
+      "fields": {
+        "anode_context": ["Anode.Group", "Anode.Crystal Structure", "Anode.Structure"],
+        "cathode_context": ["Cathode.Group", "Cathode.Crystal", "Cathode.Structure"],
+        "electrolyte_context": ["Salt", "Solvent ", "Additive w%"],
+        "voltage": [],
+        "current_or_rate": [],
+        "cycle_index": [],
+        "capacity": ["peak discharge capacity. (mAh/g)"],
+        "retention": ["peak discharge capacity retention (%80) cycle number"],
+        "milestone_anchor": ["peak discharge capacity retention (%80) cycle number"]
+      }
+    },
+    "auxiliary": {
+      "label": "Auxiliary cathode dataset",
+      "expected_records": 1006,
+      "fields": {
+        "anode_context": [],
+        "cathode_context": ["Name", "Elements"],
+        "electrolyte_context": [],
+        "voltage": ["Voltage lower limit", "Voltage upper limit"],
+        "current_or_rate": ["Current: mAg-1", "Current: C"],
+        "cycle_index": ["Cycle"],
+        "capacity": ["Capacity"],
+        "retention": ["Retention"],
+        "milestone_anchor": ["Cycle"]
+      }
+    }
+  }
+}

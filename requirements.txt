@@ -1,0 +1,5 @@
+# Tested with Python 3.12.14. Model checks used the CPU build of PyTorch.
+numpy==2.5.4
+torch==2.15.0
+openpyxl==3.1.5
+matplotlib==3.11.2

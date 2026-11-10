@@ -1,0 +1,33 @@
+output,dataset,rule,column,value,decimals,manuscript_location
+dataset_coverage.csv,Main dataset,,records,1229,0,Table 4 panel A
+dataset_coverage.csv,Main dataset,,system_context_percent,100,0,Table 4 panel A
+dataset_coverage.csv,Main dataset,,protocol_resolution_percent,0,0,Table 4 panel A
+dataset_coverage.csv,Main dataset,,response_evidence_percent,100,0,Table 4 panel A
+dataset_coverage.csv,Auxiliary cathode dataset,,records,1006,0,Table 4 panel A
+dataset_coverage.csv,Auxiliary cathode dataset,,system_context_percent,33.3,1,Table 4 panel A
+dataset_coverage.csv,Auxiliary cathode dataset,,protocol_resolution_percent,84.5,1,Table 4 panel A
+dataset_coverage.csv,Auxiliary cathode dataset,,response_evidence_percent,50.0,1,Table 4 panel A
+rule_scores.csv,Main dataset,R1,score_percent,100,0,Table 4 panel B
+rule_scores.csv,Auxiliary cathode dataset,R1,score_percent,33.3,1,Table 4 panel B
+rule_scores.csv,Main dataset,R2,score_percent,75.0,1,Table 4 panel B
+rule_scores.csv,Main dataset,R3,score_percent,100,0,Table 4 panel B
+rule_scores.csv,Main dataset,R4,score_percent,0,0,Table 4 panel B
+rule_scores.csv,Auxiliary cathode dataset,R4,score_percent,84.5,1,Table 4 panel B
+rule_scores.csv,Main dataset,R1,terms,3,0,Table A.2
+rule_scores.csv,Main dataset,R1,score_sum,3,0,Table A.2
+rule_scores.csv,Main dataset,R1,complement,0,0,Table A.2
+rule_scores.csv,Auxiliary cathode dataset,R1,terms,3,0,Table A.2
+rule_scores.csv,Auxiliary cathode dataset,R1,score_sum,1,0,Table A.2
+rule_scores.csv,Auxiliary cathode dataset,R1,complement,2,0,Table A.2
+rule_scores.csv,Main dataset,R2,terms,4,0,Table A.2
+rule_scores.csv,Main dataset,R2,score_sum,3,0,Table A.2
+rule_scores.csv,Main dataset,R2,complement,1,0,Table A.2
+rule_scores.csv,Main dataset,R3,terms,4,0,Table A.2
+rule_scores.csv,Main dataset,R3,score_sum,4,0,Table A.2
+rule_scores.csv,Main dataset,R3,complement,0,0,Table A.2
+rule_scores.csv,Main dataset,R4,terms,3,0,Table A.2
+rule_scores.csv,Main dataset,R4,score_sum,0,0,Table A.2
+rule_scores.csv,Main dataset,R4,complement,3,0,Table A.2
+rule_scores.csv,Auxiliary cathode dataset,R4,terms,3,0,Table A.2
+rule_scores.csv,Auxiliary cathode dataset,R4,score_sum,2.536,3,Table A.2
+rule_scores.csv,Auxiliary cathode dataset,R4,complement,0.464,3,Table A.2
